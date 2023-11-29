@@ -1,0 +1,24 @@
+.section-about {
+  display: flex;
+
+  @media screen and (max-width: 1199px) {
+    display: none
+  }
+}
+
+.about__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-list {
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.about-list__item {
+  width: 33.3333%;
+}
+

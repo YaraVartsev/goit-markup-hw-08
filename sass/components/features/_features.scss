@@ -1,0 +1,27 @@
+.feature-list {  
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+.feature-list__item {
+  @media screen and (min-width: $tablet) {
+    width: calc((100% - 60px) / 2);
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: calc((100% - 90px) / 4);
+  }
+
+  &:not(:last-child) {
+    @media screen and (max-width: 1199px) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+

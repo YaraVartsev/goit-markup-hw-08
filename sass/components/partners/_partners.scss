@@ -1,0 +1,14 @@
+.partner-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.partner-list {
+  @media screen and (max-width: 767px) {
+    width: 50%;
+  }
+
+  display: flex;
+  flex-wrap: wrap;
+}
+

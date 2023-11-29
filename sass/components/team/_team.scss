@@ -1,0 +1,22 @@
+.team__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.team-list {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+.team-list__item {
+  
+}
+
+.social-list {
+  display: inline-flex;
+  gap: 10px;
+}
